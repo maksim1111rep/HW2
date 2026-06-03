@@ -1,8 +1,16 @@
 class Ingredient:
     def __init__(self, name: str, quantity: float, unit: str):
         self._name = name
-        self._quantity = quantity
+        self.quantity = quantity
         self._unit = unit
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def unit(self):
+        return self._unit
 
     @property
     def quantity(self):
