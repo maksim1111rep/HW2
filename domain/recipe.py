@@ -1,5 +1,3 @@
-from packaging.pylock import is_valid_pylock_path
-
 from domain import ingredient
 from domain.ingredient import Ingredient
 
